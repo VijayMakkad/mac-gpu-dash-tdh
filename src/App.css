@@ -1,0 +1,51 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.dashboard-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh; /* Full viewport height */
+  padding: 20px; /* Optional padding */
+  box-sizing: border-box; /* Ensures padding is included in the total height */
+}
+
+.dashboard {
+  width: 100%;
+  max-width: 1200px; /* Ensures it doesn't exceed the viewport width */
+  height: auto;
+}
+
+.charts-container {
+  display: flex;
+  justify-content: space-around;
+  gap: 20px; /* Adjust gap as needed */
+}
+
+.chart-container {
+  flex: 1;
+  min-width: 300px; /* Ensures each chart container has a minimum width */
+
+}
+
+.chart-title {
+  margin-bottom: 0.5em;
+}
+
+.chart-text {
+  font-size: 1.5em; /* Increased font size for clarity */
+  margin-top: 0.5em;
+}
+
+.memory-info {
+  margin-top: 1em;
+  font-size: 1.2em;
+}
+
+/* Ensuring charts are larger */
+.recharts-wrapper {
+  height: 300px; /* Adjust as needed */
+}
