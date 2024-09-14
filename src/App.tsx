@@ -165,7 +165,7 @@ const MetricsDashboard: React.FC = () => {
               <Col md={6}>
                 <Card className="h-100">
                   <Card.Body>
-                    <Card.Title>Device Specifications</Card.Title>
+                    {/* <Card.Title>Device Specifications</Card.Title> */}
                     {/* Add details from DeviceSpecs here if needed */}
                     <DeviceInfo />
                     <DeviceSpecs />
